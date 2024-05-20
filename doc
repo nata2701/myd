@@ -1,0 +1,21 @@
+Unfortunately, the provided contexts do not directly relate to calculating the square of a planet. They discuss programming to calculate the square of a number, but not specifically for a celestial body like a planet. However, I can provide a general Python code snippet for calculating the square of a number, which you could potentially adapt for your purposes.
+
+Here's a Python program to calculate the square of a given number:
+
+```python
+def calculate_square(number):
+    return number ** 2
+
+# Example usage
+number = 9
+square = calculate_square(number)
+print("The square of", number, "is", square)
+```
+
+In this example, the `calculate_square` function takes a number as an argument, raises it to the power of 2 (i.e., squares it), and returns the result. The example usage demonstrates how to use this function with a specific number (in this case, 9).
+
+To adapt this code for calculating the square of a planet's distance from the sun, you would need to replace the `number` variable with the actual distance value. However, this would likely require additional calculations and data, as planetary distances are not simple numbers.
+
+Sources:
+1. [Python program to calculate square of a given number - GeeksforGeeks](https://www.geeksforgeeks.org/python-profram-to-calculate-square-of-a-given-number/)
+2. [C Program: Find the square of any number - w3resource](https://www.w3resource.com/c-programming-exercises/function/c-function-exercise-2.php)
